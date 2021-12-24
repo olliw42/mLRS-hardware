@@ -15997,8 +15997,8 @@ http://dangerousprototypes.com</description>
 <plain>
 <text x="180.34" y="-38.1" size="2.54" layer="91">18. Dez. 2021</text>
 <text x="180.34" y="-43.18" size="2.54" layer="91">(c) www.olliw.eu</text>
-<text x="180.34" y="-27.94" size="2.54" layer="91">MLRS Tx Module</text>
-<text x="180.34" y="-33.02" size="2.54" layer="91">Schaltplan v0.13</text>
+<text x="180.34" y="-27.94" size="2.54" layer="91">mLRS Tx Module</text>
+<text x="180.34" y="-33.02" size="2.54" layer="91">Schaltplan v0.14</text>
 <text x="178.435" y="-20.955" size="1.778" layer="97">This is a open source hardware project, under the terms
 of the TAPR Open Hardware License, http://www.tapr.org/ohl.html.
 The project web page is http://www.olliw.eu/.</text>
@@ -16107,10 +16107,10 @@ The project web page is http://www.olliw.eu/.</text>
 <attribute name="VALUE" x="386.08" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="GND33" gate="1" x="398.78" y="81.28" rot="R90"/>
-<instance part="IM1" gate="G$1" x="393.7" y="116.84"/>
-<instance part="IM2" gate="G$1" x="393.7" y="40.64"/>
-<instance part="GND34" gate="1" x="393.7" y="17.78"/>
-<instance part="GND35" gate="1" x="393.7" y="93.98"/>
+<instance part="IM1" gate="G$1" x="396.24" y="116.84"/>
+<instance part="IM2" gate="G$1" x="396.24" y="40.64"/>
+<instance part="GND34" gate="1" x="396.24" y="17.78"/>
+<instance part="GND35" gate="1" x="396.24" y="93.98"/>
 <instance part="UFL1" gate="G$1" x="421.64" y="109.22"/>
 <instance part="GND36" gate="1" x="424.18" y="96.52"/>
 <instance part="UFL2" gate="G$1" x="424.18" y="33.02"/>
@@ -16448,25 +16448,25 @@ The project web page is http://www.olliw.eu/.</text>
 </segment>
 <segment>
 <pinref part="IM1" gate="G$1" pin="G"/>
-<wire x1="391.16" y1="101.6" x2="391.16" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="101.6" x2="393.7" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IM1" gate="G$1" pin="G2"/>
-<wire x1="391.16" y1="99.06" x2="393.7" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="99.06" x2="396.24" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="99.06" x2="396.24" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="99.06" x2="398.78" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="99.06" x2="398.78" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
-<wire x1="393.7" y1="99.06" x2="393.7" y2="96.52" width="0.1524" layer="91"/>
-<junction x="393.7" y="99.06"/>
+<wire x1="396.24" y1="99.06" x2="396.24" y2="96.52" width="0.1524" layer="91"/>
+<junction x="396.24" y="99.06"/>
 </segment>
 <segment>
 <pinref part="IM2" gate="G$1" pin="G"/>
-<wire x1="391.16" y1="25.4" x2="391.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="25.4" x2="393.7" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IM2" gate="G$1" pin="G2"/>
-<wire x1="391.16" y1="22.86" x2="393.7" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="22.86" x2="396.24" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="22.86" x2="396.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="22.86" x2="398.78" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="22.86" x2="398.78" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND34" gate="1" pin="GND"/>
-<wire x1="393.7" y1="20.32" x2="393.7" y2="22.86" width="0.1524" layer="91"/>
-<junction x="393.7" y="22.86"/>
+<wire x1="396.24" y1="20.32" x2="396.24" y2="22.86" width="0.1524" layer="91"/>
+<junction x="396.24" y="22.86"/>
 </segment>
 <segment>
 <pinref part="UFL1" gate="G$1" pin="2"/>
@@ -17150,6 +17150,7 @@ The project web page is http://www.olliw.eu/.</text>
 <wire x1="375.92" y1="15.24" x2="378.46" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="IM2" gate="G$1" pin="IN"/>
 <wire x1="378.46" y1="15.24" x2="378.46" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="33.02" x2="381" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -17197,20 +17198,21 @@ The project web page is http://www.olliw.eu/.</text>
 <wire x1="375.92" y1="91.44" x2="378.46" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="IM1" gate="G$1" pin="IN"/>
 <wire x1="378.46" y1="91.44" x2="378.46" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="109.22" x2="381" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="IM1" gate="G$1" pin="OUT"/>
 <pinref part="UFL1" gate="G$1" pin="1"/>
-<wire x1="408.94" y1="109.22" x2="424.18" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="109.22" x2="424.18" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="IM2" gate="G$1" pin="OUT"/>
 <pinref part="UFL2" gate="G$1" pin="1"/>
-<wire x1="408.94" y1="33.02" x2="426.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="33.02" x2="426.72" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART2_TX" class="0">
