@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.00625" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -170,16 +170,20 @@
 <board>
 <plain>
 <text x="29.5275" y="22.5425" size="1.27" layer="26" font="vector" ratio="15" rot="SMR0" align="bottom-center">(c) www.olliw.eu</text>
-<wire x1="44.45" y1="3.81" x2="44.45" y2="25.4" width="0" layer="20"/>
+<wire x1="43.4975" y1="3.81" x2="44.45" y2="4.7625" width="0" layer="20"/>
+<wire x1="44.45" y1="4.7625" x2="44.45" y2="24.4475" width="0" layer="20"/>
+<wire x1="44.45" y1="24.4475" x2="43.4975" y2="25.4" width="0" layer="20"/>
 <text x="35.8775" y="11.1125" size="1.27" layer="25" font="vector" ratio="15" rot="SR0">5V</text>
 <text x="25.0825" y="7.14375" size="1.016" layer="25" font="vector" ratio="15" rot="SR0">SWD</text>
 <text x="34.6075" y="18.57375" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0">5V</text>
 <text x="35.8775" y="16.98625" size="1.27" layer="25" font="vector" ratio="15" rot="SR0">Rx</text>
 <text x="34.925" y="9.525" size="1.27" layer="25" font="vector" ratio="15" rot="SR0">OUT</text>
 <text x="34.76625" y="12.7" size="1.27" layer="25" font="vector" ratio="15" rot="SR0">GND</text>
-<wire x1="3.81" y1="25.4" x2="44.45" y2="25.4" width="0" layer="20"/>
-<wire x1="3.81" y1="25.4" x2="3.81" y2="3.81" width="0" layer="20"/>
-<wire x1="3.81" y1="3.81" x2="44.45" y2="3.81" width="0" layer="20"/>
+<wire x1="4.7625" y1="25.4" x2="43.4975" y2="25.4" width="0" layer="20"/>
+<wire x1="4.7625" y1="25.4" x2="3.81" y2="24.4475" width="0" layer="20"/>
+<wire x1="3.81" y1="24.4475" x2="3.81" y2="4.7625" width="0" layer="20"/>
+<wire x1="3.81" y1="4.7625" x2="4.7625" y2="3.81" width="0" layer="20"/>
+<wire x1="4.7625" y1="3.81" x2="43.4975" y2="3.81" width="0" layer="20"/>
 <wire x1="39.0525" y1="8.255" x2="40.9575" y2="8.255" width="0.1524" layer="25"/>
 <wire x1="40.9575" y1="8.255" x2="41.43375" y2="8.73125" width="0.1524" layer="25"/>
 <wire x1="40.9575" y1="10.795" x2="41.43375" y2="11.27125" width="0.1524" layer="25"/>
@@ -360,7 +364,7 @@
 <wire x1="37.7825" y1="5.000625" x2="36.195" y2="5.000625" width="0.1524" layer="22"/>
 <text x="7.62" y="23.01875" size="1.6764" layer="25" font="vector" ratio="15" rot="SR0" align="bottom-center">mLRS</text>
 <text x="30.1625" y="9.8425" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0" align="top-center">v0.14
-rev01</text>
+rev02</text>
 <circle x="32.385" y="20.16125" radius="0.254" width="0.254" layer="21"/>
 <circle x="12.144375" y="7.699375" radius="0.254" width="0.254" layer="21"/>
 <circle x="12.144375" y="17.859375" radius="0.254" width="0.254" layer="21"/>
@@ -2199,16 +2203,16 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C12" pad="2"/>
 <contactref element="C8" pad="-"/>
 <polygon width="0.254" layer="16" isolate="0.2032" rank="6">
-<vertex x="4.445" y="24.765"/>
-<vertex x="43.815" y="24.765"/>
-<vertex x="43.815" y="4.445"/>
-<vertex x="4.445" y="4.445"/>
+<vertex x="4.1275" y="25.0825"/>
+<vertex x="44.1325" y="25.0825"/>
+<vertex x="44.1325" y="4.1275"/>
+<vertex x="4.1275" y="4.1275"/>
 </polygon>
 <polygon width="0.254" layer="1" isolate="0.2032" rank="6">
-<vertex x="4.445" y="24.765"/>
-<vertex x="43.815" y="24.765"/>
-<vertex x="43.815" y="4.445"/>
-<vertex x="4.445" y="4.445"/>
+<vertex x="4.1275" y="25.0825"/>
+<vertex x="44.1325" y="25.0825"/>
+<vertex x="44.1325" y="4.1275"/>
+<vertex x="4.1275" y="4.1275"/>
 </polygon>
 <contactref element="Q1" pad="2"/>
 <contactref element="C7" pad="2"/>
