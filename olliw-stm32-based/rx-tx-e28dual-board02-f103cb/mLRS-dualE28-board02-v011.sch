@@ -17723,21 +17723,22 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="GND12" library="# supply1" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="DIODE-" device="SOD110-R" value="1PS76SB40"/>
-<part name="GND6" library="# supply1" deviceset="GND" device=""/>
 <part name="GND13" library="# supply1" deviceset="GND" device=""/>
+<part name="TP4" library="testpad" deviceset="TP" device="TP15R" value="TPTP15R"/>
+<part name="TP5" library="testpad" deviceset="TP" device="TP15R" value="TPTP15R"/>
+<part name="GND6" library="# supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="180.34" y="-38.1" size="2.54" layer="91">30. Apr. 2022</text>
+<text x="180.34" y="-38.1" size="2.54" layer="91">11. Mai. 2022</text>
 <text x="180.34" y="-43.18" size="2.54" layer="91">(c) www.olliw.eu</text>
 <text x="180.34" y="-27.94" size="2.54" layer="91">mLRS dual-E28 Board02</text>
-<text x="180.34" y="-33.02" size="2.54" layer="91">Schaltplan v0.10</text>
+<text x="180.34" y="-33.02" size="2.54" layer="91">Schaltplan v0.11</text>
 <text x="178.435" y="-20.955" size="1.778" layer="97">This is a open source hardware project, under the terms
 of the TAPR Open Hardware License, http://www.tapr.org/ohl.html.
 The project web page is http://www.olliw.eu/.</text>
 <text x="96.52" y="86.36" size="1.778" layer="91">boot1</text>
-<text x="96.52" y="73.66" size="1.778" layer="91">dummy</text>
 <text x="96.52" y="33.02" size="1.778" layer="91">dummy</text>
 </plain>
 <instances>
@@ -17821,8 +17822,10 @@ The project web page is http://www.olliw.eu/.</text>
 <attribute name="NAME" x="170.6626" y="43.18" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="167.8686" y="43.18" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND6" gate="1" x="121.92" y="73.66" rot="R90"/>
 <instance part="GND13" gate="1" x="121.92" y="33.02" rot="R90"/>
+<instance part="TP4" gate="G$1" x="139.7" y="22.86"/>
+<instance part="TP5" gate="G$1" x="147.32" y="22.86"/>
+<instance part="GND6" gate="1" x="147.32" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -17994,14 +17997,14 @@ The project web page is http://www.olliw.eu/.</text>
 <wire x1="165.1" y1="20.32" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="PORTB_L" pin="PB7"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="93.98" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="PORTA_H" pin="PA11"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="93.98" y1="33.02" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TP5" gate="G$1" pin="TP"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="147.32" y1="20.32" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -18599,6 +18602,19 @@ The project web page is http://www.olliw.eu/.</text>
 <pinref part="IC1" gate="PORTA_H" pin="PA8"/>
 <wire x1="93.98" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
 <label x="104.14" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUZZER" class="0">
+<segment>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="139.7" y1="20.32" x2="139.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
+<label x="124.46" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="PORTB_L" pin="PB7"/>
+<wire x1="93.98" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
+<label x="101.6" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

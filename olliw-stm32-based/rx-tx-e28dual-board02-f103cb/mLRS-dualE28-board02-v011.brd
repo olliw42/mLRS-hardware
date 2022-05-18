@@ -9,33 +9,33 @@
 <grid distance="0.00625" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -85,7 +85,7 @@
 <layer number="119" name="mUnrouted" color="7" fill="1" visible="no" active="yes"/>
 <layer number="120" name="Descript" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -185,7 +185,7 @@
 <wire x1="4.7625" y1="5.08" x2="42.2275" y2="5.08" width="0" layer="20"/>
 <text x="38.4175" y="15.08125" size="1.6764" layer="25" font="vector" ratio="15" rot="SR0">G</text>
 <text x="37.465" y="11.43" size="1.27" layer="25" font="vector" ratio="15" rot="SR0">Tx</text>
-<text x="22.86" y="8.09625" size="0.7112" layer="25" font="vector" ratio="15" rot="SR0">Tx1</text>
+<text x="22.5425" y="7.9375" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0">Tx1</text>
 <wire x1="36.35375" y1="23.97125" x2="36.35375" y2="23.65375" width="0.1524" layer="25"/>
 <wire x1="36.35375" y1="23.65375" x2="36.35375" y2="23.33625" width="0.1524" layer="25"/>
 <wire x1="36.03625" y1="23.97125" x2="36.35375" y2="23.65375" width="0.1524" layer="25"/>
@@ -196,8 +196,8 @@
 <wire x1="36.03625" y1="22.38375" x2="36.35375" y2="22.06625" width="0.1524" layer="25"/>
 <wire x1="36.35375" y1="22.06625" x2="36.03625" y2="21.74875" width="0.1524" layer="25"/>
 <wire x1="36.03625" y1="21.74875" x2="36.03625" y2="22.38375" width="0.1524" layer="25"/>
-<text x="36.35375" y="14.76375" size="1.6764" layer="25" font="vector" ratio="20" rot="SR90" align="bottom-center">mLRS</text>
-<text x="7.3025" y="24.60625" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0" align="top-center">v0.10
+<text x="35.8775" y="13.49375" size="1.6764" layer="25" font="vector" ratio="20" rot="SR90" align="bottom-center">mLRS</text>
+<text x="7.3025" y="24.60625" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0" align="top-center">v0.11
 rev00</text>
 <text x="36.5125" y="19.84375" size="1.27" layer="25" font="vector" ratio="15" rot="SR0">OUT</text>
 <wire x1="40.64" y1="14.605" x2="41.91" y2="14.605" width="0.1524" layer="21"/>
@@ -210,8 +210,8 @@ rev00</text>
 <wire x1="41.91" y1="14.605" x2="42.545" y2="15.24" width="0.1524" layer="21"/>
 <wire x1="42.545" y1="24.13" x2="41.91" y2="24.765" width="0.1524" layer="21"/>
 <wire x1="40.64" y1="24.765" x2="40.005" y2="24.13" width="0.1524" layer="21"/>
-<text x="25.24125" y="8.09625" size="0.7112" layer="25" font="vector" ratio="15" rot="SR0">Rx1</text>
-<text x="27.46375" y="8.09625" size="0.7112" layer="25" font="vector" ratio="15" rot="SR0">Gnd</text>
+<text x="25.0825" y="7.9375" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0">Rx1</text>
+<text x="27.6225" y="7.9375" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0">Gnd</text>
 <wire x1="34.686875" y1="24.4475" x2="31.988125" y2="24.4475" width="0.1524" layer="21"/>
 <wire x1="31.988125" y1="22.86" x2="31.988125" y2="24.4475" width="0.1524" layer="21"/>
 <wire x1="34.686875" y1="22.86" x2="31.988125" y2="22.86" width="0.1524" layer="21"/>
@@ -294,6 +294,7 @@ rev00</text>
 <wire x1="24.4475" y1="12.938125" x2="24.4475" y2="15.636875" width="0.1524" layer="22"/>
 <wire x1="22.86" y1="15.636875" x2="24.4475" y2="15.636875" width="0.1524" layer="22"/>
 <wire x1="22.86" y1="12.938125" x2="24.4475" y2="12.938125" width="0.1524" layer="22"/>
+<text x="34.13125" y="16.8275" size="0.9144" layer="25" font="vector" ratio="15" rot="SR0">Ext</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1693,6 +1694,13 @@ Cream on SMD OFF.&lt;br&gt;
 new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
+<package name="TP15R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
+<text x="-0.7501" y="0.8001" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
 <package name="B1,27">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
@@ -1959,7 +1967,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="37.369746875" y="11.214103125" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="C9" library="rcl" package="C0402" value="100n" x="34.925" y="20.16125" smashed="yes">
-<attribute name="NAME" x="36.35375" y="19.05" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="35.71875" y="19.05" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.2552" y="18.25625" size="0.8128" layer="27"/>
 </element>
 <element name="C8" library="rcl" package="SMC_A" value="10u" x="38.25875" y="8.41375" smashed="yes" rot="MR270">
@@ -2062,6 +2070,14 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="32.385" y="23.97125" size="0.8128" layer="28" rot="MR180"/>
 </element>
 <element name="D1" library="diode" package="SOD110-R" value="1PS76SB40" x="37.94125" y="22.86" smashed="yes" rot="MR270"/>
+<element name="TP4" library="testpad" package="TP15R" value="TPTP15R" x="37.1475" y="16.66875" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="36.5125" y="14.76375" size="1" layer="37"/>
+<attribute name="VALUE" x="36.5125" y="15.90675" size="0.0254" layer="27"/>
+</element>
+<element name="TP5" library="testpad" package="TP15R" value="TPTP15R" x="37.1475" y="14.44625" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="36.5125" y="12.54125" size="1" layer="37"/>
+<attribute name="VALUE" x="36.5125" y="13.68425" size="0.0254" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2150,7 +2166,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="32.0675" y="12.7" extent="1-16" drill="0.3302"/>
 <via x="34.29" y="12.7" extent="1-16" drill="0.3302"/>
 <via x="36.83" y="12.7" extent="1-16" drill="0.3302"/>
-<via x="36.83" y="14.9225" extent="1-16" drill="0.3302"/>
 <via x="34.29" y="14.9225" extent="1-16" drill="0.3302"/>
 <via x="29.68625" y="16.1925" extent="1-16" drill="0.3302"/>
 <via x="27.94" y="14.2875" extent="1-16" drill="0.3302"/>
@@ -2166,9 +2181,9 @@ Please make sure your boards conform to these design rules.</description>
 <via x="10.795" y="14.9225" extent="1-16" drill="0.3302"/>
 <via x="8.41375" y="14.9225" extent="1-16" drill="0.3302"/>
 <via x="22.5425" y="21.11375" extent="1-16" drill="0.3302"/>
-<contactref element="IC1" pad="43"/>
 <contactref element="IC1" pad="32"/>
 <via x="27.225625" y="24.4475" extent="1-16" drill="0.3302"/>
+<contactref element="TP5" pad="TP"/>
 </signal>
 <signal name="VCC">
 <contactref element="C2" pad="1"/>
@@ -2455,9 +2470,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="S1" pad="3"/>
 <wire x1="36.57" y1="9.2625" x2="35.82" y2="9.2625" width="0.1524" layer="1"/>
 <contactref element="IC1" pad="38"/>
-<wire x1="33.075" y1="13.9425" x2="34.47625" y2="13.9425" width="0.1524" layer="1"/>
-<wire x1="34.47625" y1="13.9425" x2="35.8775" y2="12.54125" width="0.1524" layer="1"/>
-<wire x1="35.8775" y1="12.54125" x2="35.8775" y2="9.36375" width="0.1524" layer="1"/>
+<wire x1="33.075" y1="13.9425" x2="34.3175" y2="13.9425" width="0.1524" layer="1"/>
+<wire x1="34.3175" y1="13.9425" x2="35.8775" y2="12.3825" width="0.1524" layer="1"/>
+<wire x1="35.8775" y1="12.3825" x2="35.8775" y2="9.36375" width="0.1524" layer="1"/>
 <wire x1="35.8775" y1="9.36375" x2="35.82" y2="9.2625" width="0.1524" layer="1"/>
 </signal>
 <signal name="UART2_RX">
@@ -2743,6 +2758,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.335" y1="9.36625" x2="13.335" y2="8.53375" width="0.1524" layer="16"/>
 <wire x1="27.825" y1="11.6925" x2="27.825" y2="10.3625" width="0.1524" layer="1"/>
 <wire x1="27.825" y1="10.3625" x2="27.78125" y2="10.31875" width="0.1524" layer="1"/>
+</signal>
+<signal name="BUZZER">
+<contactref element="TP4" pad="TP"/>
+<contactref element="IC1" pad="43"/>
+<wire x1="33.075" y1="16.4425" x2="35.6275" y2="16.4425" width="0.1524" layer="1"/>
+<wire x1="35.6275" y1="16.4425" x2="35.8775" y2="16.66875" width="0.1524" layer="1"/>
+<wire x1="35.8775" y1="16.66875" x2="37.1475" y2="16.66875" width="0.1524" layer="1"/>
 </signal>
 </signals>
 </board>
