@@ -6,7 +6,7 @@ These are of course only suggestions, these and equally suitable parts can be so
 
 The EByte E77-900M22S module is relatively new. It can be ordered from the "EBYTE Official Store" on AliExpress.
 
-The EByte E22-900M22S module is around for some while and can be ordered on AliExpress from several sources (the "EBYTE Official Store" may not be the cheapest offer).
+The EByte E22-900M22S module is needed only for a true-diversity build. It is around for some while and can be ordered on AliExpress from several sources (the "EBYTE Official Store" may not be the cheapest offer).
 
 
 
